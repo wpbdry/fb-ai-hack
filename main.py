@@ -1,7 +1,7 @@
 import requests
 
 # URL which return JSON string
-url = 'https://www.eventbriteapi.com/v3/events/search/?token=YQVEX6PF66QPHON2KHD3'
+url = 'https://www.eventbriteapi.com/v3/events/?token=YQVEX6PF66QPHON2KHD3'
 
 # Get list of events
 request_string = requests.get(url)
